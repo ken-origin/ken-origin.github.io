@@ -44,6 +44,7 @@ body, input, textarea, select {
 	color: #777777;
 	font-size: 20pt;
 	line-height: 1.75em;
+        background: linear-gradient(-135deg, #E4A972, #9941D8) fixed;
 }
 
 @media screen and (max-width: 1680px) {
