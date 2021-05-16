@@ -28,6 +28,11 @@ body {
 	line-height: 1;
 }
 
+hr {
+    width: 50%;
+    margin-left: 1px;
+}
+
 ol, ul, li {
 	list-style: none;
 }
