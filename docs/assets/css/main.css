@@ -41,7 +41,8 @@ ol, ul, li {
 body, input, textarea, select {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 300;
-	color: #777777;
+	/*color: #777777;*/
+        color: #fff;
 	font-size: 20pt;
 	line-height: 1.75em;
         background: linear-gradient(-135deg, #E4A972, #9941D8) fixed;
