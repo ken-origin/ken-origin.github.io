@@ -28,6 +28,10 @@ body {
 	line-height: 1;
 }
 
+a {
+    color: #fff;
+}
+
 hr {
     width: 30%;
     margin-left: 1px;
