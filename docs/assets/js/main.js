@@ -14,5 +14,15 @@ document.addEventListener('DOMContentLoaded', function(){
         var strNow = year + "年" + month + "月" + date + "日" + "(" + dayOfWeekStr + ")" + hour + ":" + min + ":" + sec;
         ele.innerHTML=strNow;
     }, 100);
+
+
+    const h2s = document.querySelectorAll('h2');
+    h2s.forEach(h2 => {
+        h2.addEventListener('click', function(e) {
+            let article = this.closest("article");
+            let row = article.querySelector('.target');
+            row.classList.toggle('is-hidden')
+        })
+    });
 });
 

@@ -171,6 +171,11 @@ ol {
 		padding-left: 0.25em;
 	}
 
+
+.target.is-hidden {
+  display: none;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
